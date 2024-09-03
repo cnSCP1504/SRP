@@ -1,10 +1,10 @@
 # import LCRL code trainer module
 from test_test import train
 # import the pre-built LDBA for minecraft-t1
-from lcrl.src.automata.minecraft_1 import minecraft_1
+from lcrl.automata.minecraft_1 import minecraft_1
 from minecraft_test import minecraft_test
 # import the pre-built MDP for minecraft-t1
-from lcrl.src.environments.minecraft import minecraft
+from minecraft import minecraft
 
 LDBA = minecraft_test
 MDP = minecraft

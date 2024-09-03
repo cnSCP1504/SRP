@@ -16,7 +16,7 @@ labels[0][3] = labels[4][0] = labels[6][8] = labels[9][4] = 'iron'
 labels[6][1] = labels[6][5] = labels[4][9] = 'work_bench'
 labels[2][4] = labels[9][0] = labels[7][7] = 'tool_shed'
 '''
-
+labels[7][7] = 'tool_shed'
 labels[0][7] = 'gold'
 
 # override the labels
