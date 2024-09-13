@@ -210,14 +210,14 @@ def train(
         plt.savefig(
             os.path.join(results_sub_path, 'tested_policy.png'), bbox_inches="tight")
         plt.show()
-        """ is_gif = input(
+        is_gif = input(
             'Would you like to create a gif for the the control policy? '
             'If so, type in "y", otherwise, type in "n". ')
         if is_gif == 'y' or is_gif == 'Y':
             animate(learning_task.MDP, test_path, results_sub_path, labels_value, cmap, norm, patches)
         print('\n---------------------------------\n')
         print('The results have been saved here:\n')
-        print(results_sub_path) """
+        print(results_sub_path)
         return learning_task
 
     if isinstance(MDP, MarsRover) and test and learning_task.successes_in_test / number_of_tests > 0.8:
@@ -233,14 +233,14 @@ def train(
         plt.savefig(
             os.path.join(results_sub_path, 'tested_policy.png'), bbox_inches="tight")
         plt.show()
-        """ is_gif = input(
+        is_gif = input(
             'Would you like to create a gif for the the control policy? '
             'If so, type in "y", otherwise, type in "n". ')
         if is_gif == 'y' or is_gif == 'Y':
             animate(learning_task.MDP, test_path, results_sub_path, labels_value, cmap, norm, patches)
         print('\n---------------------------------\n')
         print('The results have been saved here:\n')
-        print(results_sub_path) """
+        print(results_sub_path)
         return learning_task
 
     if algorithm == 'ql':
