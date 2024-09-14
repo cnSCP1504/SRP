@@ -13,11 +13,11 @@ successes = 0
 
 while successes < 0.8:
      # train the agent
-    task = train(MDP, LDBA,
-                algorithm='ql',
-                episode_num=1000,
-                iteration_num_max=4000,
-                discount_factor=0.9,
-                learning_rate=0.9
-                )
-    successes = task.successes_in_test /100
+     task = train(MDP, LDBA,
+               algorithm='ql',
+               episode_num=1000,
+               iteration_num_max=4000,
+               discount_factor=0.9,
+               learning_rate=0.9
+               )
+     successes = task.successes_in_test /100
