@@ -1,4 +1,4 @@
-from lcrl.src.environments.SlipperyGrid import SlipperyGrid
+from src.lcrl.environments.SlipperyGrid import SlipperyGrid
 import numpy as np
 
 # create a SlipperyGrid object
