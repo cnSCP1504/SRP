@@ -3,7 +3,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import tqdm
 import imageio.v2 as imageio
-from lcrl.environments.SlipperyGrid import SlipperyGrid
+import sys
+sys.path.append(r"E:\Document\GitHub\SRP")
+from src.lcrl.environments.SlipperyGrid import SlipperyGrid
 
 
 def animate(mdp, executed_policy, dir_to_save, labels_value, cmap, norm, patches):
