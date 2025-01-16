@@ -328,7 +328,7 @@ if __name__ == "__main__":
     #     dmp_opts['demo_folder'] = folder_demo_trajectories + '/' + skill + '/'
     #     _, _, _ = run_elaborateDMP(None, skill, None, None, symbols, workspace_bnds, dmp_opts)
 
-    folder_demo_trajectories = "../data/stretch/trajectories/"
+    folder_demo_trajectories = "../data/stretch/trajectories"
     skill_names = ["skillStretch0", "skillStretch1"]
     symbols = load_symbols("../data/stretch/stretch_symbols.json")
     workspace_bnds = np.array([[-0.5, 5.5], [-2.5, 2.5], [-0.1, 0.5]])
