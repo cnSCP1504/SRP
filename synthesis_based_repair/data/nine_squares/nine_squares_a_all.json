@@ -7,7 +7,7 @@
   "env_live": "",
   "sys_trans_hard": "!(x2 & y0)\n!(x2' & y0')",
   "reactive_variables": [],
-  "hard_constraints": [{"x2": "True", "y0": "True"}],
+  "hard_constraints": [{"x1": "True", "y1": "True"}],
   "change_cons": "!(x0' & x1')\n!(x0' & x2')\n!(x1' & x2')\n!(y0' & y1')\n!(y0' & y2')\n!(y1' & y2')\n(x0' | x1' | x2')\n(y0' | y1' | y2')\n!(x0 & x1)\n!(x0 & x2)\n!(x1 & x2)\n!(y0 & y1)\n!(y0 & y2)\n!(y1 & y2)\n(x0 | x1 | x2)\n(y0 | y1 | y2)\n(x0 <-> !x0') | (x1 <-> !x1') | (x2 <-> !x2') | ((x0 <-> x0') & (x1 <-> x1') & (x2 <-> x2'))\n(y0 <-> !y0') | (y1 <-> !y1') | (y2 <-> !y2') | ((y0 <-> y0') & (y1 <-> y1') & (y2 <-> y2'))\n!((x0 <-> x0') & (x1 <-> x1') & (x2 <-> x2') & (y0 <-> y0') & (y1 <-> y1') & (y2 <-> y2'))\n",
-  "not_allowed_repair": "!skill0b\n!skill1b\n"
+  "not_allowed_repair": "!skill0b\n!skill1b\n!skill2b\n!skill3b\n!skill4b\n!skill5b\n!skill6b\n!skill7b\n!skill8b\n!skill9b\n!skill10b\n"
 }

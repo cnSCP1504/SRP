@@ -1,10 +1,10 @@
 {
   "file_symbols": "../data/nine_squares/nine_squares_symbols.json",
-  "file_skills": "../data/nine_squares/nine_squares_skills.json",
+  "file_skills": "../data/nine_squares/nine_squares_skills_all.json",
   "folder_trajectories": "../data/nine_squares/trajectories/",
   "folder_plot": "../data/nine_squares/plots/",
   "skill_names": ["skill0", "skill1", "skill2", "skill3", "skill4", "skill5", "skill6", "skill7", "skill8", "skill9", "skill10"],
   "file_structured_slugs": "../data/nine_squares/nine_squares_a.structuredslugs",
   "file_log": "../data/nine_squares/log_a.txt",
-  "f_user_spec": "../data/nine_squares/nine_squares_a.json"
+  "f_user_spec": "../data/nine_squares/nine_squares_a_all.json"
 }

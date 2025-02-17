@@ -14,6 +14,9 @@ import argparse
 
 
 if __name__ == "__main__":
+    import dl2_lfd.ltl_diff.constraints
+    print(dir(dl2_lfd.ltl_diff.constraints))
+
 
     plt.close('all')
     parser = argparse.ArgumentParser()

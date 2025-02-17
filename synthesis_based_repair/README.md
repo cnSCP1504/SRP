@@ -53,6 +53,9 @@ Clone and build the repository:
 git clone https://github.com/apacheck/synthesis_based_repair.git
 cd synthesis_based_repair
 python setup.py install
+export PYTHONPATH=$PYTHONPATH:/home/ros/Documents/GitHub/SRP
+export PYTHONPATH=$PYTHONPATH:/home/ros/Documents/GitHub/SRP/synthesis_based_repair
+
 ```
 
 ## Usage
@@ -169,6 +172,7 @@ The synthesis-based repair algorithm is in `run_repair` in `[PARENT DIRECTORY TO
 To run the Nine Squares example, from `[PARENT DIRECTORY TO SYNTHESIS_BASED_REPAIR]/synthesis_based_repair/scripts`, run:
 
 ```shell
+export LD_LIBRARY_PATH=/home/ros/cudd/cudd/.libs:$LD_LIBRARY_PATH
 python run_symbolic_repair.py --user_spec "../data/nine_squares/nine_squares_a.json" --file_names "../data/nine_squares/nine_squares_files.json" --sym_opts "../data/nine_squares/nine_squares_sym_opts.json"
 ```
 
